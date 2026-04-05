@@ -1,6 +1,8 @@
 {
+  "version": 2,
   "buildCommand": "npm install --include=dev && npm run build",
   "outputDirectory": "dist",
+  "installCommand": "npm install --include=dev",
   "framework": "vite",
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
